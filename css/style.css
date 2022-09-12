@@ -1,3 +1,5 @@
+
+
 *{
     margin:0;
     padding:0;
@@ -15,7 +17,6 @@ body{
 nav.navegadorUno{
     
     padding: 8px;
-    position: sticky;
     top: 5px;
     background-image: linear-gradient(to left, #3B2667 10%, #7E57C2
     100%);
@@ -104,14 +105,102 @@ div.divAutores{
     padding: 15px;
 }
 
+.imagenesIndex1{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.imagenesIndex1::before{
+    content: "Franz Kafka";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000a6;
+    transform: translate(100%);
+    transition: transform .4s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.imagenesIndex1:hover::before{
+    transform: translate(0);
+}
+
+.imagenesIndex2{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.imagenesIndex2::before{
+    content: "Edgar Allan Poe";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000a6;
+    transform: translate(100%);
+    transition: transform .4s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.imagenesIndex2:hover::before{
+    transform: translate(0);
+
+
+}
+
+.imagenesIndex3{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.imagenesIndex3::before{
+    content: "Anne Rice";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000a6;
+    transform: translate(100%);
+    transition: transform .4s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.imagenesIndex3:hover::before{
+    transform: translate(0);
+
+
+}
+
+
+
+
+
 h2.segundo{
     font-family: 'Advent Pro', sans-serif;
     font-size: 2.8rem;
     padding: 18px;
     color: black;
+
 }
-
-
 
 p.pLiteratura{
     background-color: #512DA8;
@@ -146,6 +235,94 @@ div.divRecomendados{
     text-align: center;
     font-size: 1.2rem;
 }
+
+.imagenesIndex4{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.imagenesIndex4::before{
+    content: "El Castillo";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000a6;
+    transform: translate(100%);
+    transition: transform .4s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.imagenesIndex4:hover::before{
+    transform: translate(0);
+
+
+}
+
+
+.imagenesIndex5{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.imagenesIndex5::before{
+    content: "Frankenstein";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000a6;
+    transform: translate(100%);
+    transition: transform .4s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.imagenesIndex5:hover::before{
+    transform: translate(0);
+
+}
+
+.imagenesIndex6{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.imagenesIndex6::before{
+    content: "Drácula";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000a6;
+    transform: translate(100%);
+    transition: transform .4s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.imagenesIndex6:hover::before{
+    transform: translate(0);
+
+
+}
+
 
 
 h2.tercero{
@@ -183,6 +360,9 @@ div.imgPortada{
  
 }
 
+.pOpcion{
+    text-align: center;
+}
 
 
 /*Division seis*/
@@ -298,23 +478,39 @@ div.divLibros{
 */
 
 div.divLiteraturaLibros{
-    background-color: #512DA8;
+    background-color: #3B2667;
     color: #f2e9e4;
     font-size: 18px;
     text-align: center;
     display: flex;
     justify-content: center;
     padding: 15px;
-    width: 80%;
     height: 10px;
     margin: 20px;
     transition: width 2s;
+
+    animation-name: cambiarColor;
+    animation-duration: 8s;
+
 }
 
-div.divLiteraturaLibros:hover{
+
+@keyframes cambiarColor{
+    0%{
+       background-color: #512DA8;
+    }
+
+    100%{
+        background-color: #3B2667;
+    }
+}
+
+
+/*div.divLiteraturaLibros:hover{
     background-image: linear-gradient(to left, #3B2667 10%, #7E57C2 100%);
     width: 100%;
 }
+/*
 
 
 
@@ -641,7 +837,60 @@ div.divSiete{
     font-size: 0.8rem;
 }
 
+/*Libros*/
 
+div.divLibros{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    flex-direction: column;
+    font-size: 0.8rem;
+
+}
+
+div.divLibros{
+    padding: 10px;
+
+}
+
+img.ebook1{
+    width: 200px;
+    height: 300px;
+}
+
+img.ebook2{
+    width: 200px;
+    height: 300px;
+}
+
+img.ebook3{
+    width: 200px;
+    height: 300px;
+}
+
+img.ebook4{
+    width: 200px;
+    height: 300px;
+}
+
+img.ebook5{
+    width: 200px;
+    height: 300px;
+}
+
+img.ebook6{
+    width: 200px;
+    height: 300px;
+}
+
+img.ebook7{
+    width: 200px;
+    height: 300px;
+}
+
+img.ebook8{
+    width: 200px;
+    height: 300px;
+}
 
 
  /*Ebooks*/
