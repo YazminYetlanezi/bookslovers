@@ -12,6 +12,7 @@ body{
 
 
 
+
 }
 
 nav.navegadorUno{
@@ -32,27 +33,12 @@ a.frase{
 
 }
 
-section.primero{
+
+
+div.container-fluid{
     background-color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    
 }
 
-section.primero div{
-    text-align: right;
-}
-
-h1{
-    font-size: 1.7rem;
-    text-align: center;
-    background-color: white;
-    padding: 10px;
-  
-    
-}
 
 /*Navegador division dos*/
 
@@ -77,10 +63,9 @@ div.divLibro{
 
 hr.hrUno{
     border: 0;
-    border-top: 1px solid #eae8e8;
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 75%;
+    width: 50%;
     color: #22223b;
     align-content: center;
 }
@@ -334,10 +319,10 @@ h2.tercero{
 
 hr.hrDos{
     border: 0;
-    border-top: 1px solid #eae8e8;
+    border-top: 2.5px solid #eae8e8;
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 75%;
+    width: 90%;
     color: #22223b;
     align-content: center;
 }
@@ -356,7 +341,7 @@ div.imgPortada{
     flex-direction: row;
     justify-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 90px;
  
 }
 
@@ -379,10 +364,10 @@ div.divBlog{
 
 hr.hrTres{
     border: 0;
-    border-top: 1px solid #eae8e8;
-    margin-bottom: 0px;
+    border-top: 2.5px solid #eae8e8;
+    margin-bottom: 10px;
     margin-top: 10px;
-    width: 75%;
+    width: 90%;
     color: #22223b;
     align-content: center;
 }
@@ -480,13 +465,14 @@ div.divLibros{
 div.divLiteraturaLibros{
     background-color: #3B2667;
     color: #f2e9e4;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 15px;
-    height: 10px;
-    margin: 20px;
+    padding: 20px;  
+    padding-top: 10px;
+    height: 5px;
+    margin: 25px;
     transition: width 2s;
 
     animation-name: cambiarColor;
@@ -576,10 +562,37 @@ img.ebook8{
     padding: 8px;
 }
 
+p.pEbooks{
+    padding-bottom: 40px;
+}
 
 
 /*eventos division cuatro*/
+
 div.divEventos{
+    display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1px;
+    justify-items: center;
+    text-align: center;
+    font-size: 0.90rem;
+    padding-top: 5px;
+}
+
+div.card{
+    background-color: #3B2667;
+    color: #eae8e8;
+    border-color: #22223b;
+    width: 50rem;
+}
+
+p.pFrank{
+    text-align: center;
+    font-size: 2rem;
+}
+
+div.divEventos1{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -590,6 +603,8 @@ div.divEventos{
     flex-wrap: wrap;
     margin: 10px;
 }
+
+ 
 
 div.divVideo{
     display: flex;
@@ -698,8 +713,9 @@ footer.footerSiempre{
 
  /*Inicio division dos*/
 div.divLibro{
-    font-size: 3rem;
+    font-size: 2rem;
 }
+
 
  /*Inicio division tres*/
 
@@ -815,6 +831,7 @@ p.pDracula2{
 /*Inicio division cinco*/
 div.imgPortada{
     flex-direction: column;
+    padding: 20px;
 
 }
 
@@ -963,19 +980,50 @@ div.fraseEventos{
 }
 
 img.eventosImg1{
-    width: 588px;
-    height: 348px;
+    width: 315px;
+    height: 200px;
+    margin: 0px;
 }
 
 img.eventosImg2{
-    width: 588px;
-    height: 348px;
+    width: 315px;
+    height: 200px;
+}
+
+div.divEventos{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        flex-direction: column;
+        font-size: 0.8rem;
+        margin: none;
+        padding: none;
+    }
+
+div.card{
+    width: 25rem;
+
+}
+
+div.card-body{
+    width: 25rem;
+}
+
+p.pFrank{
+    font-size: 1.60rem;
+}
+
+p.pEventos1{
+    font-size: 0.80rem;
+}
+
+p.pEventos2{
+    font-size: 0.80rem;
 }
 
 /*sucursales*/
 
 div.divLiteraturaLibros{
-    font-size: 1rem;
+    font-size: 0.80rem;
 }
 
 div.divSucursalesMapa{

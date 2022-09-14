@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>BOOKS LOVERS</title>
     <link rel="shortcut icon" href="../Imagenes/icono.png" type="image/x-icon">
@@ -18,16 +19,42 @@
 
     <!--Navegador division uno-->
 
-    <section class="primero">
-        <nav>
-            <a href="../html/Index.html">Inicio</a>
-            <a href="../libros/Libros.html">Libros</a>
-            <a href="../ebooks/ebooks.html">Ebooks</a>
-            <a href="../eventosdelmes/eventos.html">Eventos del mes</a>
-            <a href="../sucursales/sucursales.html">Sucursales</a>
-            <a href="../contacto/contacto.html">Contacto</a>
-            </nav>
-    </section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../html/Index.html">BOOKSLOVERS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../html/Index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../libros/Libros.html">Libros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../ebooks/ebooks.html">Ebooks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../eventosdelmes/eventos.html">Eventos del mes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Descubre mas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Acerca de nosotros</a></li>
+                  <li><a class="dropdown-item" href="../sucursales/sucursales.html">Sucursales</a></li>
+                  <li><a class="dropdown-item" href="../contacto/contacto.html">Contacto</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
 
     <!--
         <div>
@@ -37,16 +64,40 @@
         </div>-->
         
 
-    <h1 class="titulo">BOOKS LOVERS</h1>
-
-
     <!--Division dos-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imagenes/Division 2/index1-carrusel.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagenes/Division 2/index2-carrusel.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../imagenes/Division 2/index3-carrusel.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
 
 
+<!--
 <div class="section__portada">
     <img src="../imagenes/Division 2/portada-index2.png" alt="Portada">
 </div>
-
+-->
 
     <!--Division tres-->
 
@@ -81,7 +132,7 @@
 
     <h2 class="tercero">LIBROS RECOMENDADOS</h2>
 
-    <hr class="hrDos">
+    <hr class="hrUno">
 
 
  <div class="divRecomendados">
@@ -96,28 +147,18 @@
     </article>
  </div>       
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
     <!--Division cinco-->
     <div class="imgPortada">
         <img class="imgFondo" src="../imagenes/División 5/portada4.png" alt="Fondo de frase">
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
 
     <!--Dvision seis-->
 
     <h2 class="blog">NUESTRO BLOG</h2>
 
-    <hr class="hrTres">
+    <hr class="hrUno">
 
 <div class="divBlog">
     <article>
@@ -148,5 +189,8 @@
         <a>FAQ o preguntas frecuentes</a>
     </footer>
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
