@@ -465,11 +465,9 @@ div.divLibros{
 div.divLiteraturaLibros{
     background-color: #3B2667;
     color: #f2e9e4;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 20px;  
+    padding: 42px;  
     padding-top: 10px;
     height: 5px;
     margin: 25px;
@@ -479,6 +477,8 @@ div.divLiteraturaLibros{
     animation-duration: 8s;
 
 }
+
+ 
 
 
 @keyframes cambiarColor{
@@ -621,7 +621,10 @@ div.divVideo{
 div.fraseEventos{
     display: flex;
     justify-content: center;
-    margin: 10px;
+    width: none;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
 }
 
 /*sucursales division cinco*/
@@ -741,6 +744,7 @@ div.divAutores{
 img.autorKafka{
     width: 200px;
     height: 300px;
+    margin-bottom: 1rem;
 
 }
 
@@ -787,6 +791,7 @@ p.pAnne{
 img.imgCastillo{
     width: 200px;
     height: 300px;
+    margin-bottom: 1rem;
 
 }
 
@@ -1023,7 +1028,7 @@ p.pEventos2{
 /*sucursales*/
 
 div.divLiteraturaLibros{
-    font-size: 0.80rem;
+    font-size: 1.2rem;
 }
 
 div.divSucursalesMapa{
