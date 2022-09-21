@@ -1,1112 +1,149 @@
-
-
-*{
-    margin:0;
-    padding:0;
-}
-
-/*Navegador division uno*/
-body{
-    background-color: white;
-    font-family: 'Advent Pro', sans-serif;
-
-
-
-
-}
-
-nav.navegadorUno{
-    
-    padding: 8px;
-    top: 5px;
-    background-image: linear-gradient(to left, #3B2667 10%, #7E57C2
-    100%);
-
-}
-
-a.frase{
-    color: aliceblue;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-
-
-}
-
-
-
-div.container-fluid{
-    background-color: white;
-}
-
-
-/*Navegador division dos*/
-
-div.section__portada img{
-    width: 100%;
-}
-
-.section__portada{
-    text-align: center;
-
-}
-
-div.divLibro{
-    font-size: 4.7rem;
-    font-family: 'Advent Pro', sans-serif;
-    text-align: center;
-}
-
-
-
-/*Division tercero*/
-
-hr.hrUno{
-    border: 0;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 50%;
-    color: #22223b;
-    align-content: center;
-}
-
-section.sectionAutores table{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    background-color: #f2e9e4;
-    padding: 20px;
-
-}
-
-div.divAutores{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 2px;
-    justify-items: center;
-    text-align: center;
-    font-size: 1.2rem;
-    padding: 15px;
-}
-
-.imagenesIndex1{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.imagenesIndex1::before{
-    content: "Franz Kafka";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #000000a6;
-    transform: translate(100%);
-    transition: transform .4s;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-.imagenesIndex1:hover::before{
-    transform: translate(0);
-}
-
-.imagenesIndex2{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.imagenesIndex2::before{
-    content: "Edgar Allan Poe";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #000000a6;
-    transform: translate(100%);
-    transition: transform .4s;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-.imagenesIndex2:hover::before{
-    transform: translate(0);
-
-
-}
-
-.imagenesIndex3{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.imagenesIndex3::before{
-    content: "Anne Rice";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #000000a6;
-    transform: translate(100%);
-    transition: transform .4s;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-.imagenesIndex3:hover::before{
-    transform: translate(0);
-
-
-}
-
-
-
-
-
-h2.segundo{
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 2.8rem;
-    padding: 18px;
-    color: black;
-
-}
-
-p.pLiteratura{
-    background-color: #512DA8;
-    color: #f2e9e4;
-    font-size: 1.8rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 12px;
-
-    /* width: 80%; */
-}
-
- 
-
-.spanUno{
-    background-color: #4a4e69;
-
-}
-
-/*Division cuatro*/
-section.sectionRecomendados{
-    background-color: #f2e9e4;
-}
-
-div.divRecomendados{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 2px;
-    justify-items: center;
-    text-align: center;
-    font-size: 1.2rem;
-}
-
-.imagenesIndex4{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.imagenesIndex4::before{
-    content: "El Castillo";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #000000a6;
-    transform: translate(100%);
-    transition: transform .4s;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-.imagenesIndex4:hover::before{
-    transform: translate(0);
-
-
-}
-
-
-.imagenesIndex5{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.imagenesIndex5::before{
-    content: "Frankenstein";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #000000a6;
-    transform: translate(100%);
-    transition: transform .4s;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-.imagenesIndex5:hover::before{
-    transform: translate(0);
-
-}
-
-.imagenesIndex6{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.imagenesIndex6::before{
-    content: "Drácula";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #000000a6;
-    transform: translate(100%);
-    transition: transform .4s;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-.imagenesIndex6:hover::before{
-    transform: translate(0);
-
-
-}
-
-
-
-h2.tercero{
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 2.8rem;
-    padding: 18px;
-    color: black;
-}
-
-hr.hrDos{
-    border: 0;
-    border-top: 2.5px solid #eae8e8;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 90%;
-    color: #22223b;
-    align-content: center;
-}
-
-span.spanDos{
-    background-color:#4a4e69;
-
-    
-}
-
-
-
-/*Division cinco*/
-div.imgPortada{
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    justify-content: center;
-    padding: 90px;
- 
-}
-
-.pOpcion{
-    text-align: center;
-}
-
-
-/*Division seis*/
-div.divBlog{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
-    font-size: 1.1rem;
-    padding: 30px;
-    flex-wrap: wrap;
-}
-
-hr.hrTres{
-    border: 0;
-    border-top: 2.5px solid #eae8e8;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 90%;
-    color: #22223b;
-    align-content: center;
-}
-
-
-img.imgBlog1{
-    padding: 10px;
-    transition: all 2s;
-    }
-
-img.imgBlog1:hover{
-    transform: scale(0.95);
-    }
-
-
-img.imgBlog2{
-    padding: 10px;
-    transition: all 3s;
-}
-
-img.imgBlog2:hover{
-    transform: scale(0.95);
-    }
-
-h2.blog{
-    color: black;
-    font-size: 2.8rem;
-    padding: 10px;
-}
-
-
-/*Division siete*/
-section.sectionFinal{
-    background-color: #4a4e69
-  
-}
-
-
-div.divSiete{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 30px;
-    flex-wrap: wrap;
-    color: aliceblue;
-    letter-spacing: 2px;
-    background-image: linear-gradient(to left, #3B2667 10%, #7E57C2 100%)
-}
-
-
-/*Footer uno*/
-
-footer.footerPrimero{
-    color: aliceblue;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: #22223b;
-    
-}
-
-a+a{
-    margin-left: 10px;
-}
-
-
-
-/*libros division dos*/
-
-div.divLibros{
-        display: grid; 
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 2px;
-        justify-items: center;
-        text-align: center;
-        font-size: 1rem;
-
-    }
- 
-    /*
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-    flex-wrap: wrap;
- 
-}
-*/
-
-div.divLiteraturaLibros{
-    background-color: #3B2667;
-    color: #f2e9e4;
-    font-size: 20px;
-    text-align: center;
-    padding: 42px;  
-    padding-top: 10px;
-    height: 5px;
-    margin: 25px;
-    transition: width 2s;
-
-    animation-name: cambiarColor;
-    animation-duration: 8s;
-
-}
-
- 
-
-
-@keyframes cambiarColor{
-    0%{
-       background-color: #512DA8;
-    }
-
-    100%{
-        background-color: #3B2667;
-    }
-}
-
-
-/*div.divLiteraturaLibros:hover{
-    background-image: linear-gradient(to left, #3B2667 10%, #7E57C2 100%);
-    width: 100%;
-}
-/*
-
-
-
-
-/*ebooks division tres*/
-
-div.divLiteraturaLibros{
-    margin: 0px 0px 10px 0px;
-}
-
-div.divEbooks{
-    display: grid; 
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 2px;
-    justify-items: center;
-    text-align: center;
-    font-size: 1rem;
-    
-        /*
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        font-size: 1.2rem;
-        flex-wrap: wrap;
-        line-height: 25px;
-        */
-     
-}
-
-
-
-img.ebook1{
-    padding: 8px;
-}
-
-img.ebook2{
-    padding: 8px;
-}
-
-img.ebook3{
-    padding: 8px;
-}
-
-img.ebook4{
-    padding: 8px;
-}
-
-img.ebook5{
-    padding: 8px;
-}
-
-img.ebook6{
-    padding: 8px;
-}
-
-img.ebook7{
-    padding: 8px;
-}
-
-img.ebook8{
-    padding: 8px;
-}
-
-p.pEbooks{
-    padding-bottom: 40px;
-}
-
-
-/*eventos division cuatro*/
-
-div.divEventos{
-    display: grid; 
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 1px;
-    justify-items: center;
-    text-align: center;
-    font-size: 0.90rem;
-    padding-top: 5px;
-}
-
-div.card{
-    background-color: #3B2667;
-    color: #eae8e8;
-    border-color: #22223b;
-    width: 50rem;
-}
-
-p.pFrank{
-    text-align: center;
-    font-size: 2rem;
-}
-
-div.divEventos1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
-    font-size: 18px;
-    padding: 30px;
-    flex-wrap: wrap;
-    margin: 10px;
-}
-
- 
-
-div.divVideo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    text-align: center;
-    font-size: 18px;
-    padding: 30px;
-    flex-wrap: wrap;
- 
-}
-
-div.fraseEventos{
-    display: flex;
-    justify-content: center;
-    width: none;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-
-}
-
-/*sucursales division cinco*/
-
-
-
-div.divSucursalesMapa{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 10px;
-}
-
-p.pBarra{
-    font-size: 18px;
-    text-align: center;
-    padding: 5px;
-}
-
-
-/*contacto division seis*/
-
-p.pFormulario{
-    font-size: 18px;
-    text-align: center;
-    padding: 5px;
-
-}
-
-
-
-
-
-
-
-/*Navegador general*/
-body{
-    font-family: 'Advent Pro', sans-serif;
-
-}
-
-nav.navegadorNav{
-    padding: 8px;
-    position: sticky;
-    top: 5px;
-    background-image: linear-gradient(to left, #3B2667 10%, #7E57C2
-    100%);
-
-}
-
-a.frase{
-    color: aliceblue;
-
-}
-
-section.sectionInicio{
-    background-color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    
-}
-
-
-footer.footerSiempre{
-    color: aliceblue;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: #000;
-
-
-}   
-
-
-
-
-
-/*media queries*/ 
-
-@media only screen and (max-width: 768px){
-
-}
-
-@media only screen and (max-width: 576px){
-
-
- /*Inicio division dos*/
-div.divLibro{
-    font-size: 2rem;
-}
-
-
- /*Inicio division tres*/
-
-p.pLiteratura{
-    font-size: 1rem;
-}
-
-h2.segundo{
-    font-size: 1.7rem;
-    text-align: center;
-
-}
-
-div.divAutores{
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    flex-direction: column;
-    padding: 10px;
-}   
-
-
-
-img.autorKafka{
-    width: 200px;
-    height: 300px;
-    margin-bottom: 1rem;
-
-}
-
-img.autorPoe{
-    width: 200px;
-    height: 300px;
-
-}
-
-img.autorAnne{
-    width: 200px;
-    height: 300px;
-
-}
-
-p.pKafka{
-    font-size: 1rem;
-
-}
-
-p.pPoe{
-    font-size: 1rem;
-}
-
-p.pAnne{
-    font-size: 1rem;
-}
-
-
-
- /*Inicio division cuatro*/
- h2.tercero{
-    font-size: 1.7rem;
-    text-align: center;
- }
-
- div.divRecomendados{
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    flex-direction: column;
-
-}  
-
-img.imgCastillo{
-    width: 200px;
-    height: 300px;
-    margin-bottom: 1rem;
-
-}
-
-img.imgFrank{
-    width: 200px;
-    height: 300px;
-
-}
-
-img.imgDracula{
-    width: 200px;
-    height: 300px;
-
-}
-
-
-p.pCastillo1{
-    font-size: 1rem;
-}
-p.pCastillo2{
-    font-size: 1rem;
-}
-
-p.pFrank1{
-    font-size: 1rem;
-}
-p.pFrank2{
-    font-size: 1rem;
-}
-
-p.pDracula1{
-    font-size: 1rem;
-}
-p.pDracula2{
-    font-size: 1rem;
-}
-
-
-
-
-
-/*Inicio division cinco*/
-div.imgPortada{
-    flex-direction: column;
-    padding: 20px;
-
-}
-
-div.divRecomendados{
-    padding: 20px;
-}
-
-
-/*Inicio division seis*/
-
-h2.blog{
-    font-size: 1.8rem;
-    text-align: center;
-}
-
-
-
-/*Inicio division siete*/
-div.divSiete{
-    font-size: 0.8rem;
-}
-
-/*Libros*/
-
-div.divLibros{
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    flex-direction: column;
-    font-size: 0.8rem;
-
-}
-
-div.divLibros{
-    padding: 10px;
-
-}
-
-img.ebook1{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook2{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook3{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook4{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook5{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook6{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook7{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook8{
-    width: 200px;
-    height: 300px;
-}
-
-
- /*Ebooks*/
-div.divEbooks{
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    flex-direction: column;
-    font-size: 0.8rem;
-
-}
-
-div.diEbooks{
-    padding: 10px;
-
-}
-
-img.ebook1{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook2{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook3{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook4{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook5{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook6{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook7{
-    width: 200px;
-    height: 300px;
-}
-
-img.ebook8{
-    width: 200px;
-    height: 300px;
-}
-
-/*Eventos del mes*/
-div.diVideo{
-    flex-direction: column;
-}
-
-div.divVideo iframe{
-    width: 500px;
-    height: 300px;
-    align-items: center;
-}
-
-div.fraseEventos{
-    flex-direction: column;
-}
-
-img.eventosImg1{
-    width: 315px;
-    height: 200px;
-    margin: 0px;
-}
-
-img.eventosImg2{
-    width: 315px;
-    height: 200px;
-}
-
-div.divEventos{
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        flex-direction: column;
-        font-size: 0.8rem;
-        margin: none;
-        padding: none;
-    }
-
-div.card{
-    width: 25rem;
-
-}
-
-div.card-body{
-    width: 25rem;
-}
-
-p.pFrank{
-    font-size: 1.60rem;
-}
-
-p.pEventos1{
-    font-size: 0.80rem;
-}
-
-p.pEventos2{
-    font-size: 0.80rem;
-}
-
-/*sucursales*/
-
-div.divLiteraturaLibros{
-    font-size: 1.2rem;
-}
-
-div.divSucursalesMapa{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-
-div.divSucursalesMapa iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-
-}
-
-
-/*Estilos generales*/
-
-nav.navegadorNav{
-    flex-direction: column;
-    align-items: center;
-
-}
-
-img.facebook{
-    display: none;
-}
-
-img.instagram{
-    display: none;
-}
-
-img.twitter{
-    display: none;
-}
-
-section.sectionInicio{
-    flex-direction: column;
-    align-items: center;
-}
-
-section.sectionInicio{
-    font-size: 0.85rem;
-}
-
-section.primero{
-    font-size: 0.85rem;
-}
-
-img.imgBlog1{
-    width: 362px;
-    height: 200px;
-}
-
-img.imgBlog2{
-    width: 362px;
-    height: 200px;
-}
-
-p.pBlog1{
-    font-size: 0.85rem;
-}
-
-p.pBlog2{
-    font-size: 0.85rem;
-}
-
-footer.footerSiempre{
-    font-size: 0.70rem;
-
-    /* flex-direction: column;
-    line-height: 140%;
-    word-spacing: 1px;*/
-}
-
-
-
-}
+nav navegadorUno {
+  padding: 8px;
+  top: 5px;
+  background-image: linear-gradient(to left, #3B2667 10%, #7E57C2 100%);
+}
+
+a frase {
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+div container-fluid {
+  background-color: white;
+}
+
+hr hrUno {
+  border: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 50%;
+  color: #22223b;
+  align-content: center;
+}
+
+section sectionAutores table {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f2e9e4;
+  padding: 20px;
+}
+
+div divAutores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 2px;
+  justify-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+.imagenesIndex1 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.imagenesIndex1::before {
+  content: "Franz Kafka";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6509803922);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.imagenesIndex1:hover::before {
+  transform: translate(0);
+}
+
+.imagenesIndex2 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.imagenesIndex2::before {
+  content: "Edgar Allan Poe";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6509803922);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.imagenesIndex2:hover::before {
+  transform: translate(0);
+}
+
+.imagenesIndex3 {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.imagenesIndex3::before {
+  content: "Anne Rice";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6509803922);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.imagenes:hover::before {
+  transform: translate(0);
+}
+
+h2 segundo {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 2.8rem;
+  padding: 18px;
+  color: black;
+}
+
+h2 segundo::first-letter {
+  font-size: 4rem;
+  color: #3B2667;
+}
+
+p pLiteratura {
+  background-color: #512DA8;
+  color: #f2e9e4;
+  font-size: 1.8rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */
