@@ -1,5 +1,5 @@
 
-//index autores//@at-root
+//index seccion-autores//@at-root
 
 hr{
     hrUno{
@@ -37,31 +37,20 @@ div{
     }
 }
 
+
 .imagenesIndex1{
-    position: map-get($map: $imgs-funcion, $key: position);
-    cursor: pointer;
-    overflow: hidden;
+    @include img-autorPosition();
 }
+
 
 .imagenesIndex1{
     &::before{
         content: "Franz Kafka";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #000000a6;
-        transform: translate(100%);
-        transition: transform .4s;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.5rem;
+        @include img-before;
     }
 }
  
+
 .imagenesIndex1{
     &:hover{
         &::before{
@@ -71,27 +60,13 @@ div{
 }
 
 .imagenesIndex2{
-    position: map-get($map: $imgs-funcion, $key: position);
-    cursor: pointer;
-    overflow: hidden;
+    @include img-autorPosition();
 }
 
 .imagenesIndex2{
     &::before{
         content: "Edgar Allan Poe";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #000000a6;
-        transform: translate(100%);
-        transition: transform .4s;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.5rem;
+        @include img-before;
     }
 }
 
@@ -104,27 +79,14 @@ div{
 }
 
 .imagenesIndex3{
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
+    @include img-autorPosition();
 }
+
 
 .imagenesIndex3{
     &::before{
         content: "Anne Rice";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #000000a6;
-        transform: translate(100%);
-        transition: transform .4s;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.5rem;
+        @include img-before;
     }
 }
 
