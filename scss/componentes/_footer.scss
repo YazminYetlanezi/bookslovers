@@ -1,0 +1,11 @@
+footer{
+    footerSiempre{
+        background-color: map-get($map: $footer, $key: bg-color2);
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}
+

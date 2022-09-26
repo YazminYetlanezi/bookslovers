@@ -414,6 +414,7 @@ section.sectionFinal{
 
 
 div.divSiete{
+    height: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -435,7 +436,7 @@ footer.footerPrimero{
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: #22223b;
+    background-color: #000;
     
 }
 
@@ -458,26 +459,15 @@ div.divLibros{
 
     }
  
-    /*
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-    flex-wrap: wrap;
- 
-}
-*/
 
 div.divLiteraturaLibros{
     background-color: #3B2667;
     color: #f2e9e4;
     font-size: 20px;
     text-align: center;
-    padding: 42px;  
+    padding: 70px;  
     padding-top: 10px;
-    height: 5px;
-    margin: 25px;
+    height: 60px;
     transition: width 2s;
 
     animation-name: cambiarColor;
@@ -485,7 +475,6 @@ div.divLiteraturaLibros{
 
 }
 
- 
 
 
 @keyframes cambiarColor{
@@ -497,14 +486,6 @@ div.divLiteraturaLibros{
         background-color: #3B2667;
     }
 }
-
-
-/*div.divLiteraturaLibros:hover{
-    background-image: linear-gradient(to left, #3B2667 10%, #7E57C2 100%);
-    width: 100%;
-}
-/*
-
 
 
 
@@ -522,16 +503,7 @@ div.divEbooks{
     justify-items: center;
     text-align: center;
     font-size: 1rem;
-    
-        /*
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        text-align: center;
-        font-size: 1.2rem;
-        flex-wrap: wrap;
-        line-height: 25px;
-        */
+
      
 }
 
@@ -570,7 +542,10 @@ img.ebook8{
 }
 
 p.pEbooks{
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 2rem;
+
 }
 
 
@@ -587,16 +562,32 @@ div.divEventos{
     padding-top: 5px;
 }
 
+/*eventos division dos*/ 
+
 div.card{
     background-color: #3B2667;
     color: #eae8e8;
     border-color: #22223b;
-    width: 50rem;
+    width: 60rem;
+    margin-bottom: 30px;
+}
+
+p.card-text{
+    font-size: 1.2rem;
 }
 
 p.pFrank{
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
+    color: whitesmoke;
+}
+
+ 
+
+div.divEventosP{
+    background-color: #3B2667;
+    width: 100%;
+    height: 6rem;
 }
 
 div.divEventos1{
@@ -609,6 +600,7 @@ div.divEventos1{
     padding: 30px;
     flex-wrap: wrap;
     margin: 10px;
+    margin-top: 30px;
 }
 
  
@@ -625,14 +617,36 @@ div.divVideo{
  
 }
 
-div.fraseEventos{
-    display: flex;
+.pFraseTiempo2{
     justify-content: center;
-    width: none;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-
+    font-size: 2.5rem;
+    text-align: center;
 }
+
+.fraseEventos2{
+    padding: 20px;
+    padding-left: 800px;
+    padding-right: 180px;
+    margin-bottom: 150px;
+}
+
+ 
+
+p.pFraseTiempo{
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+ 
+}
+
+.fraseEventos{
+    padding-top: 150px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+
 
 /*sucursales division cinco*/
 
@@ -805,13 +819,25 @@ img.imgCastillo{
 img.imgFrank{
     width: 200px;
     height: 300px;
+}
 
+p.card-text{
+    font-size: 15px;
 }
 
 img.imgDracula{
     width: 200px;
     height: 300px;
 
+}
+
+img.imgFrankEventos{
+    width: 400px;
+    height: 230px;
+}
+
+p.card-text{
+    font-size: 15px;
 }
 
 
@@ -864,6 +890,7 @@ h2.blog{
 /*Inicio division siete*/
 div.divSiete{
     font-size: 0.8rem;
+    height: 5rem;
 }
 
 /*Libros*/
@@ -931,6 +958,15 @@ div.divEbooks{
 
 }
 
+p.pEbooks{
+    text-align: center;
+    justify-content: center;
+
+    padding-bottom: 3rem;
+    font-size: 1rem;
+}
+
+
 div.diEbooks{
     padding: 10px;
 
@@ -987,8 +1023,39 @@ div.divVideo iframe{
     align-items: center;
 }
 
+
+.pFraseTiempo2{
+    font-size: 1.2rem;
+    padding-bottom: 4px;
+}
+
+.fraseEventos2{
+    padding: 10px;
+    padding-left: 170px;
+    margin-bottom: 4rem;
+ 
+}
+
+
+p.pFraseTiempo{
+    justify-content: center;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 0.80rem;
+ 
+}
+
+.fraseEventos{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 div.fraseEventos{
     flex-direction: column;
+   
+    
 }
 
 img.eventosImg1{
@@ -1022,7 +1089,13 @@ div.card-body{
 
 p.pFrank{
     font-size: 1.60rem;
+    padding-top: 10px;
 }
+
+div.divEventosP{
+    height: 3.5rem;
+}
+
 
 p.pEventos1{
     font-size: 0.80rem;
@@ -1032,10 +1105,17 @@ p.pEventos2{
     font-size: 0.80rem;
 }
 
+div.divEventos1{
+    padding: 15px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
 /*sucursales*/
 
 div.divLiteraturaLibros{
-    font-size: 1.2rem;
+    height: 80px;
+    padding: 18px;  
 }
 
 div.divSucursalesMapa{
@@ -1108,10 +1188,6 @@ p.pBlog2{
 
 footer.footerSiempre{
     font-size: 0.70rem;
-
-    /* flex-direction: column;
-    line-height: 140%;
-    word-spacing: 1px;*/
 }
 
 

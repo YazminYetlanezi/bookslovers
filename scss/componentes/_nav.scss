@@ -1,3 +1,8 @@
+body{
+    background-color: nth($color, 2);
+    font-family: 'Advent Pro', sans-serif;
+}
+
 nav{
     navegadorUno{
     padding: 8px;
@@ -10,9 +15,7 @@ nav{
 a{
     frase{
         color: nth($color, 1);
-        text-align: center;
-        display: flex;
-        justify-content: center;
+        @extend %alineamiento;
     }
 }
 
@@ -21,3 +24,4 @@ div{
         background-color: $bg-body;
     }
 }
+

@@ -1,3 +1,14 @@
+a frase {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: white;
+  font-family: "Advent Pro", sans-serif;
+}
+
 nav navegadorUno {
   padding: 8px;
   top: 5px;
@@ -6,9 +17,6 @@ nav navegadorUno {
 
 a frase {
   color: aliceblue;
-  text-align: center;
-  display: flex;
-  justify-content: center;
 }
 
 div container-fluid {
@@ -144,6 +152,15 @@ p pLiteratura {
   display: flex;
   justify-content: center;
   padding: 12px;
+}
+
+footer footerSiempre {
+  background-color: #22223b;
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
