@@ -1,5 +1,4 @@
 
-
 *{
     margin:0;
     padding:0;
@@ -9,11 +8,22 @@
 body{
     background-color: white;
     font-family: 'Advent Pro', sans-serif;
-
-
-
-
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #000;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #7E57C2;   
+    border-radius: 15px;       
+    border: 3px solid #7E57C2;  
+  }
+
 
 nav.navegadorUno{
     padding: 8px;
@@ -139,8 +149,6 @@ div.divAutores{
 
 .imagenesIndex2:hover::before{
     transform: translate(0);
-
-
 }
 
 .imagenesIndex3{
@@ -171,7 +179,6 @@ div.divAutores{
 }
 
 
-
 h2.segundo{
     font-family: 'Advent Pro', sans-serif;
     font-size: 2.8rem;
@@ -194,8 +201,6 @@ p.pLiteratura{
     display: flex;
     justify-content: center;
     padding: 12px;
-
-    /* width: 80%; */
 }
 
  
@@ -299,8 +304,6 @@ div.divRecomendados{
 
 .imagenesIndex6:hover::before{
     transform: translate(0);
-
-
 }
 
 
@@ -330,8 +333,7 @@ hr.hrDos{
 
 span.spanDos{
     background-color:#4a4e69;
-
-    
+ 
 }
 
 
@@ -350,6 +352,28 @@ div.imgPortada{
     text-align: center;
 }
 
+.fraseEventos2{
+    padding: 20px;
+    padding-left: 800px;
+    padding-right: 180px;
+    margin-bottom: 150px;
+}
+
+ 
+
+p.pFraseTiempo{
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+ 
+}
+
+.fraseEventos{
+    padding-top: 150px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
 
 /*Division seis*/
 div.divBlog{
@@ -409,36 +433,116 @@ h2.blog::first-letter{
 /*Division siete*/
 section.sectionFinal{
     background-color: #4a4e69
-  
 }
 
 
 div.divSiete{
-    height: 6rem;
+    height: 12rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     font-size: 1.5rem;
-    padding: 30px;
+    padding: 30x;
     flex-wrap: wrap;
     color: aliceblue;
     letter-spacing: 2px;
     background-image: linear-gradient(to left, #3B2667 10%, #7E57C2 100%)
 }
 
+p.pFoot{
+    text-align: center;
+    padding-top: 9rem;
+
+}
+
+
+.container-buttons {
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6rem;
+    background-image: linear-gradient(to left, #3B2667 10%, #7E57C2 100%)
+  }
+
+  .container-buttons a {
+    width: 70px;
+    height: 70px;
+    display: block;
+    border-radius: 50%;
+    color: #FFF;
+    background-color: #000;
+    text-decoration: none;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2.2rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .9);
+  }
+
+  .container-buttons a::before {
+    content: "\f09a";
+    display: block;
+    margin: 19px 0;
+    transition: all .5s ease-in-out;
+  }
+
+  .container-buttons a:hover::before {
+    margin-top: -37px;
+  }
+  
+  .container-buttons a::after {
+    content: "\f25b";
+    display: block;
+  }
+  
+  .container-buttons .fa.fa-twitter {
+    background-color: #000;
+  }
+  
+  .container-buttons .fa.fa-twitter::before {
+    content: '\f099';
+  }
+  
+  .container-buttons .fa.fa-instagram {
+    background-color: #000;
+  }
+  
+  .container-buttons .fa.fa-instagram::before {
+    content: '\f16d';
+  }
+  
+  .container-buttons .fa.fa-pinterest-p {
+    background-color: #000;
+  }
+  
+  .container-buttons .fa.fa-pinterest-p::before {
+    content: '\f231';
+  }
+  
+  .container-buttons .fa.fa-whatsapp {
+    background-color: #000;
+  }
+  
+  .container-buttons .fa.fa-whatsapp::before {
+    content: '\f232';
+  }
+  
+  .container-buttons .five {
+    background-color: #000;
+  }
+  
+
 
 /*Footer uno*/
-
 footer.footerPrimero{
     color: aliceblue;
     text-align: center;
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: #000;
-    
+    background-color: #000;   
 }
+
 
 a+a{
     margin-left: 10px;
@@ -447,7 +551,6 @@ a+a{
 
 
 /*libros division dos*/
-
 div.divLibros{
         display: grid; 
         grid-template-columns: repeat(4, 1fr);
@@ -456,9 +559,14 @@ div.divLibros{
         justify-items: center;
         text-align: center;
         font-size: 1rem;
-
     }
  
+
+p.librosLibros{
+    font-size: 20px;
+    color: #3B2667;
+    }
+
 
 div.divLiteraturaLibros{
     background-color: #3B2667;
@@ -550,7 +658,6 @@ p.pEbooks{
 
 
 /*eventos division cuatro*/
-
 div.divEventos{
     display: grid; 
     grid-template-columns: repeat(1, 1fr);
@@ -649,9 +756,6 @@ p.pFraseTiempo{
 
 
 /*sucursales division cinco*/
-
-
-
 div.divSucursalesMapa{
     display: flex;
     flex-direction: row;
@@ -667,16 +771,11 @@ p.pBarra{
 
 
 /*contacto division seis*/
-
 p.pFormulario{
     font-size: 18px;
     text-align: center;
     padding: 5px;
-
 }
-
-
-
 
 
 
@@ -719,9 +818,7 @@ footer.footerSiempre{
     padding: 10px;
     background-color: #000;
 
-
 }   
-
 
 
 
@@ -864,8 +961,6 @@ p.pDracula2{
 
 
 
-
-
 /*Inicio division cinco*/
 div.imgPortada{
     flex-direction: column;
@@ -893,6 +988,28 @@ div.divSiete{
     height: 5rem;
 }
 
+p.pFoot{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.container-buttons {
+    min-width: 200px;
+
+}
+
+.container-buttons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 1rem;
+ 
+  }
+
+  .container-buttons a::before {
+    margin: 10px 0;
+  }
+
 /*Libros*/
 
 div.divLibros{
@@ -907,6 +1024,11 @@ div.divLibros{
     padding: 10px;
 
 }
+
+p.librosLibros{
+    font-size: 15px;
+    color: #3B2667;
+    }
 
 img.ebook1{
     width: 200px;
@@ -944,6 +1066,11 @@ img.ebook7{
 }
 
 img.ebook8{
+    width: 200px;
+    height: 300px;
+}
+
+img.ebook9{
     width: 200px;
     height: 300px;
 }
@@ -1170,12 +1297,12 @@ section.primero{
 
 img.imgBlog1{
     width: 362px;
-    height: 200px;
+    height: 230px;
 }
 
 img.imgBlog2{
     width: 362px;
-    height: 200px;
+    height: 230px;
 }
 
 p.pBlog1{
@@ -1189,7 +1316,6 @@ p.pBlog2{
 footer.footerSiempre{
     font-size: 0.70rem;
 }
-
 
 
 }

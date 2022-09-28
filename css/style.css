@@ -1,4 +1,4 @@
-a frase {
+a .frase {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -9,13 +9,13 @@ body {
   font-family: "Advent Pro", sans-serif;
 }
 
-nav navegadorUno {
+nav .navegadorUno {
   padding: 8px;
   top: 5px;
   background-image: linear-gradient(to left, #3B2667 10%, #7E57C2 100%);
 }
 
-a frase {
+a .frase {
   color: aliceblue;
 }
 
@@ -23,7 +23,7 @@ div container-fluid {
   background-color: white;
 }
 
-hr hrUno {
+hr .hrUno {
   border: 0;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -32,7 +32,7 @@ hr hrUno {
   align-content: center;
 }
 
-section sectionAutores table {
+section .sectionAutores table {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -40,7 +40,7 @@ section sectionAutores table {
   padding: 20px;
 }
 
-div divAutores {
+div .divAutores {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -132,19 +132,19 @@ div divAutores {
   transform: translate(0);
 }
 
-h2 segundo {
+h2 .segundo {
   font-family: "Advent Pro", sans-serif;
   font-size: 2.8rem;
   padding: 18px;
   color: black;
 }
 
-h2 segundo::first-letter {
+h2 .segundo::first-letter {
   font-size: 4rem;
   color: #3B2667;
 }
 
-p pLiteratura {
+p .pLiteratura {
   background-color: #512DA8;
   color: #f2e9e4;
   font-size: 1.8rem;
@@ -154,7 +154,7 @@ p pLiteratura {
   padding: 12px;
 }
 
-footer footerSiempre {
+footer .footerSiempre {
   background-color: #22223b;
   color: aliceblue;
   text-align: center;

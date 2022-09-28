@@ -1,5 +1,5 @@
 footer{
-    footerSiempre{
+    .footerSiempre{
         background-color: map-get($map: $footer, $key: bg-color2);
         color: aliceblue;
         text-align: center;

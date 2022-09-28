@@ -4,7 +4,7 @@ body{
 }
 
 nav{
-    navegadorUno{
+    .navegadorUno{
     padding: 8px;
     top: 5px;
     background-image: linear-gradient(to left, #3B2667 10%, #7E57C2
@@ -13,7 +13,7 @@ nav{
 }
 
 a{
-    frase{
+    .frase{
         color: nth($color, 1);
         @extend %alineamiento;
     }
