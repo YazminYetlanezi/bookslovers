@@ -9,8 +9,7 @@
     <meta name="description" content="Un espacio donde encontrarás diferentes libros para disfrutar mientras viajas o mientras tomas tu café favorito">
     <meta name="keywords" content="amantes de los libros, autores mas buscados, libros recomendados, eventos de libros, ebooks descargables gratis">
     <title>Una buena lectura te transporta a un mundo nuevo. Descúbrelo por ti mismo.</title>
-    <link rel="shortcut icon" href="../Imagenes/icono.png" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
 </head>
 <body>
 
@@ -20,16 +19,16 @@
 
 
     <!--Navegador division uno-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../Index.html">BOOKSLOVERS</a>
+          <a class="navbar-brand" href="../index.html"><b>BOOKSLOVERS</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../Index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../libros/Libros.html">Libros</a>
@@ -45,9 +44,8 @@
                   Descubre mas
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Acerca de nosotros</a></li>
                   <li><a class="dropdown-item" href="../sucursales/sucursales.html">Sucursales</a></li>
-                  <li><a class="dropdown-item" href="../contacto/contacto.html">Contacto</a></li>
+                  <li><a class="dropdown-item" href="../contacto/contacto.html">Newsletter</a></li>
                 </ul>
               </li>
             </ul>
@@ -64,13 +62,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../imagenes/contacto/img-contacto-carrusel1.png" class="d-block w-100" alt="...">
+        <img src="../imagenes/contacto/img-contacto-carrusel6.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../imagenes/contacto/img-contacto-carrusel2.png" class="d-block w-100" alt="...">
+        <img src="../imagenes/contacto/img-contacto-carrusel5.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../imagenes/contacto/img-contacto-carrusel3.png" class="d-block w-100" alt="...">
+        <img src="../imagenes/contacto/img-contacto-carrusel4.png" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -84,23 +82,28 @@
   </div>
 
 
-<div class="divLiteraturaLibros">
-    <p class=""></p>
+
+  <div class="divLiteraturaLibros"> 
+    <h1><p class="pEbooks"><b>RECIBE UN EBOOK GRATIS</b></p></h1>
+  </div>
+
+<p class="TextNews"><b>LO MEJOR DE LA LECTURA LLEGA A TU MAIL</b></p>
+
+  <div class="divForm">
+    <div>
+  <form action="formulario-contacto.php" method="post" class="form1">	
+    <input name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+    <input name="email" type="email" placeholder="Correo electrónico" required />	
+    <textarea name="consulta" placeholder="¿Cuál es el libro que estas esperando?" rows="6" required></textarea>
+    <button id="enviar" name="enviar" type="submit" class="btn">ENVIAR</button>
+</form>	
+</div>
 </div>
 
-
-<p class="pFormulario">AQUÍ VA UN FORMLARIO DE CONTACTO (AÚN NO LO APRENDEMOS)</p>
-
-
-
-
     <!--Este es mi footer-->
-        <footer class="footerSiempre">
-            <a>Condiciones de compra</a>
-            <a>Términos y condiciones</a>
-            <a>FAQ o preguntas frecuentes</a>
-        </footer>
-
+    <footer class="footerSiempre2">
+      <p class="pFoot2"><b>BOOKSLOVERS</b> Copyright © 2022 Yetla - All rights reserved || Designed By: Yazmin Islas</p>
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
