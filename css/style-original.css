@@ -82,14 +82,6 @@ hr.hrUno{
     align-content: center;
 }
 
-section.sectionAutores table{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    background-color: #f2e9e4;
-    padding: 20px;
-
-}
 
 div.divAutores{
     display: grid;
@@ -514,6 +506,20 @@ section.sectionFinal{
     background-color: #4a4e69
 }
 
+div.divSiete2{
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 30x;
+    flex-wrap: wrap;
+    color: aliceblue;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to left, #3B2667 10%, #000 100%);
+    margin-top: 250px;
+}
 
 div.divSiete{
     height: 12rem;
@@ -630,6 +636,11 @@ div.divLibros{
         font-size: 1rem;
     }
 
+button.btn btn-dark{
+        outline: none !important;
+        box-shadow: none;
+        color: #7E57C2;
+}
 
 
 p.librosLibros{
@@ -944,6 +955,23 @@ p.txtMap{
 }
 
 
+div.direcc1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    left: 15rem;
+    top: 85rem;
+    position: absolute;
+}
+
+p.pDirecc1{
+    padding-top: 22px;
+    font-size: 22px;
+}
+
+p.pDirecc2{
+    font-size: 22px;
+}
 
 
 
@@ -1080,7 +1108,7 @@ footer.footerSiempre{
 
 @media only screen and (max-width: 768px){
     nav.navegadorUno{
-        padding: 15px;
+        padding: 8px;
         top: 5px;
         width: 100%;
     
@@ -1180,13 +1208,13 @@ footer.footerSiempre{
     }
 
     img.imgBlog1{
-        width: 632px;
-        height: 410px;
+        width: 580px;
+        height: 370px;
     }
 
     img.imgBlog2{
-        width: 632px;
-        height: 410px;
+        width: 580px;
+        height: 370px;
     }
 
     p.pBlog1{
@@ -1217,6 +1245,12 @@ footer.footerSiempre{
         font-size: 0.8rem;
         height: 4rem;
     }
+
+    div.divSiete2{
+        font-size: 0.8rem;
+        height: 4rem;
+    }
+
 
     p.pFoot{
         padding-top: 7.5rem;
@@ -1412,6 +1446,51 @@ form.form1{
 }
 
 
+/*sucursales*/
+
+div.divSucursalesMapa{
+    overflow: relative;
+    padding-bottom:56.25%;
+    position: relative;
+    left: 15px;
+    top: 5px;
+    width: 650px;
+    height: 250px;
+    margin-left: 48px;
+
+
+}
+
+div.divSucursalesMapa iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width: 100%;
+    position:absolute;
+
+}
+
+p.txtMap{
+    font-size: 19px;
+    margin-left: 150px;
+    margin-top: 3rem;
+}
+
+
+div.direcc1{
+    left: 5rem;
+    top: 75rem;
+}
+
+p.pDirecc2{
+    font-size: 15px;
+}
+
+p.pDirecc1{
+    font-size: 15px;
+}
+
+
 
 
 /*fin media query*/
@@ -1450,20 +1529,20 @@ div.divAutores{
 
 img.autorKafka{
     width: 240px;
-    height: 380px;
+    height: 360px;
     margin-bottom: 1rem;
 
 }
 
 img.autorPoe{
     width: 240px;
-    height: 380px;
+    height: 360px;
 
 }
 
 img.autorAnne{
     width: 240px;
-    height: 380px;
+    height: 360px;
 
 }
 
@@ -1497,14 +1576,14 @@ p.pAnne{
 
 img.imgCastillo{
     width: 240px;
-    height: 380px;
+    height: 360px;
     margin-bottom: 1rem;
 
 }
 
 img.imgFrank{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 p.card-text{
@@ -1513,7 +1592,7 @@ p.card-text{
 
 img.imgDracula{
     width: 240px;
-    height: 380px;
+    height: 360px;
 
 }
 
@@ -1573,7 +1652,14 @@ h2.blog{
 div.divSiete{
     font-size: 0.8rem;
     height: 3rem;
-}
+ 
+}   
+
+div.divSiete2{
+    font-size: 0.8rem;
+    height: 3rem;
+ 
+}   
 
 p.pFoot{
     padding-top: 5rem;
@@ -1649,63 +1735,63 @@ div.diEbooks{
 
 img.ebook1{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook2{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook3{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook4{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook5{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook6{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook7{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook8{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook9{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook10{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 
 img.ebook11{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 img.ebook12{
     width: 240px;
-    height: 380px;
+    height: 360px;
 }
 
 
@@ -1820,9 +1906,9 @@ div.divSucursalesMapa{
     overflow: relative;
     padding-bottom:56.25%;
     position: relative;
-    left: 13px;
+    left: 8px;
     top: 2rem;
-    width: 550px;
+    width: 480px;
     height: 150px;
 
 
@@ -1839,9 +1925,26 @@ div.divSucursalesMapa iframe{
 
 p.txtMap{
     font-size: 19px;
-    margin-left: 3.5rem;
+    margin-left: 3.9rem;
     margin-top: 3rem;
 }
+
+div.direcc1{
+    left: 5rem;
+    top: 63rem;
+}
+
+p.pDirecc2{
+    font-size: 15px;
+}
+
+p.pDirecc1{
+    font-size: 15px;
+}
+
+
+
+
 
 /*Contacto*/
 
