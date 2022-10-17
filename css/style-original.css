@@ -636,12 +636,20 @@ div.divLibros{
         font-size: 1rem;
     }
 
-button.btn btn-dark{
+.btn-dark{
         outline: none !important;
         box-shadow: none;
-        color: #7E57C2;
+        background-color: #8064A2;  
+        border-color: #4a4e69
+}
+ 
+.btn{
+    border-radius: 0.10rem;
 }
 
+button{
+    margin-bottom: 25px;
+}
 
 p.librosLibros{
     font-size: 20px;
@@ -911,6 +919,8 @@ img.eventosImg1{
 
 p.pEventos1{
     margin-bottom: 35px;
+    color: #512DA8;
+ 
 }
 
 
@@ -921,6 +931,7 @@ img.eventosImg2{
 
 p.pEventos2{
     margin-bottom: 35px;
+    color: #512DA8;
 }
 
 
@@ -973,6 +984,9 @@ p.pDirecc2{
     font-size: 22px;
 }
 
+strong.sText{
+    color: #512DA8;
+}
 
 
 /*contacto division seis*/
@@ -1429,11 +1443,11 @@ img.eventosImg2{
 
 
 p.pEventos1{
-    font-size: 0.85rem;
+    font-size: 1.20rem;
 }
 
 p.pEventos2{
-    font-size: 0.85rem;
+    font-size: 1.20rem;
 }
 
 
