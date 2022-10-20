@@ -507,38 +507,38 @@ section.sectionFinal{
 }
 
 div.divSiete2{
-    height: 12rem;
+    height: 9rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    font-size: 1.5rem;
-    padding: 30x;
+    font-size: 2rem;
+    padding: 11px;
     flex-wrap: wrap;
     color: aliceblue;
     letter-spacing: 2px;
     background-image: linear-gradient(to left, #3B2667 10%, #000 100%);
-    margin-top: 250px;
+    margin-top: 120px;
 }
 
 div.divSiete{
-    height: 12rem;
+    height: 9rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    font-size: 1.5rem;
-    padding: 30x;
+    font-size: 2rem;
+    padding: 11px;
     flex-wrap: wrap;
     color: aliceblue;
     letter-spacing: 2px;
     background-image: linear-gradient(to left, #3B2667 10%, #000 100%);
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 p.pFoot{
     text-align: center;
-    padding-top: 9rem;
+    padding-top: 5rem;
     color: whitesmoke;
 
 }
@@ -548,7 +548,7 @@ p.pFoot{
     min-width: 500px;
     display: flex;
     justify-content: center;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     background-image: linear-gradient(to left, #3B2667 10%, #000 100%)
   }
 
@@ -806,7 +806,7 @@ img.ebook8{
     padding: 8px;
 }
 
-p.pEbooks{
+h1.pEbooks{
     padding-top: 10px;
     padding-bottom: 30px;
     font-size: 2rem;
@@ -976,7 +976,7 @@ div.direcc1{
 }
 
 p.pDirecc1{
-    padding-top: 22px;
+    padding-top: 20px;
     font-size: 22px;
 }
 
@@ -986,7 +986,25 @@ p.pDirecc2{
 
 strong.sText{
     color: #512DA8;
+    margin-top: 33px;
 }
+
+div.direcc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    left: 15rem;
+    top: 100rem;
+    position: absolute;
+}
+
+p.pDirecc3{
+    font-size: 22px;
+    padding-top: 22px;
+}
+
+
+
 
 
 /*contacto division seis*/
@@ -1000,7 +1018,7 @@ p.pFormulario{
 p.TextNews{
     padding-top: 40px;
     text-align: center;
-    font-size: 18px;
+    font-size: 35px;
 }
 
   
@@ -1136,7 +1154,7 @@ footer.footerSiempre{
         font-size: 17px;
     }
 
-    p.pEbooks{
+    h1.pEbooks{
         padding-top: 15px;
         padding-bottom: 30px;
         font-size: 1.70rem;
@@ -1246,7 +1264,7 @@ footer.footerSiempre{
     p.pFoot{
         text-align: center;
         padding-top: 10rem;
-        font-size: 18px;
+        font-size: 22px;
     
     }
 
@@ -1257,18 +1275,25 @@ footer.footerSiempre{
 
     div.divSiete{
         font-size: 0.8rem;
-        height: 4rem;
+        height: 9rem;
+
     }
 
     div.divSiete2{
         font-size: 0.8rem;
-        height: 4rem;
+        height: 8rem;
+        margin-top: 315px;
     }
 
 
     p.pFoot{
-        padding-top: 7.5rem;
+        padding-top: 5.5rem;
         text-align: center;
+        
+    }
+
+    div.direcc1{
+        margin-top: 20px;
     }
 
 
@@ -1504,6 +1529,34 @@ p.pDirecc1{
     font-size: 15px;
 }
 
+div.direcc2{
+    left: 5rem;
+    top: 73rem;
+    margin-top: 20px;
+}
+
+p.pDirecc3{
+    font-size: 15px;
+}
+
+div.direcc2{
+    left: 5rem;
+    top: 85.5rem;
+}
+
+p.pDirecc3{
+    font-size: 15px;
+}
+
+
+
+/*Contacto*/
+
+p.TextNews{
+    font-size: 25px;
+    color:#3B2667;
+}   
+
 
 
 
@@ -1665,24 +1718,28 @@ h2.blog{
 /*Inicio division siete*/
 div.divSiete{
     font-size: 0.8rem;
-    height: 3rem;
+    height: 3.5rem;
+    margin-top: 120px;
+
  
 }   
 
 div.divSiete2{
     font-size: 0.8rem;
     height: 3rem;
- 
+    margin-top: 370px;
 }   
+ 
 
 p.pFoot{
-    padding-top: 5rem;
+    padding-top: 2rem;
     text-align: center;
+    font-size: 19px;
 }
 
 .container-buttons {
     min-width: 200px;
-    padding-top: 60px;
+    padding-top: 65px;
     padding-bottom: 20px;
 
 }
@@ -1733,16 +1790,16 @@ div.divEbooks{
 
 }
 
-p.pEbooks{
+h1.pEbooks{
     text-align: center;
     justify-content: center;
     padding-bottom: 2.3rem;
     font-size: 1.5rem;
-    padding-top: 9px;
+    padding-top: 11px;
 }
 
 
-div.diEbooks{
+div.divEbooks{
     padding: 10px;
 
 }
@@ -1940,12 +1997,12 @@ div.divSucursalesMapa iframe{
 p.txtMap{
     font-size: 19px;
     margin-left: 3.9rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 div.direcc1{
     left: 5rem;
-    top: 63rem;
+    top: 62rem;
 }
 
 p.pDirecc2{
@@ -1956,6 +2013,10 @@ p.pDirecc1{
     font-size: 15px;
 }
 
+div.direcc2{
+    left: 5rem;
+    top: 73rem;
+}
 
 
 
@@ -1977,8 +2038,8 @@ img.imgNews{
     
 p.TextNews{
     padding-top: 40px;
-    color: #7E57C2;
-    font-size: 16px;
+    color: #3B2667;
+    font-size: 19px;
 }
 
 form.form1{
