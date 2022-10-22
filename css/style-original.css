@@ -51,6 +51,9 @@ div.container-fluid{
     color: #7E57C2
 }
 
+.carousel-indicators{
+    z-index: 0;
+}
 
 /*Navegador division dos*/
 
@@ -961,8 +964,8 @@ position: relative;
 
 p.txtMap{
     font-size: 25px;
-    margin-left: 66rem;
-    margin-top: 25rem;
+    margin-left: 68rem;
+    margin-top: 15rem;
 }
 
 
@@ -994,7 +997,7 @@ div.direcc2{
     flex-direction: row;
     justify-content: center;
     left: 15rem;
-    top: 100rem;
+    top: 98rem;
     position: absolute;
 }
 
@@ -1213,25 +1216,25 @@ footer.footerSiempre{
 
     p.pFraseTiempo{
         justify-content: center;
-        font-size: 1.7rem;
+        font-size:  1.5rem;
         text-align: center;
     }
 
     .fraseEventos{
-        padding-top: 50px;
-        padding-left: 42px;
-        padding-right: 42px;
+        padding-top: 40px;
+        padding-left: 62px;
+        padding-right: 62px;
         padding-bottom: 10px;
     }
 
 
     .pFraseTiempo2{
-        font-size: 1.5rem;    
+        font-size: 1.1rem;    
     }
 
 
     .fraseEventos2{
-        padding-left: 450px;
+        padding-left: 350px;
         padding-right: 0px;
     }
 
@@ -1510,8 +1513,8 @@ div.divSucursalesMapa iframe{
 }
 
 p.txtMap{
-    font-size: 19px;
-    margin-left: 150px;
+    font-size: 22px;
+    margin-left: 245px;
     margin-top: 3rem;
 }
 
@@ -1564,7 +1567,17 @@ p.TextNews{
 
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 320px){
+
+ 
+
+    a.frase{
+        color: aliceblue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-size: 0.73rem;
+    }
 
 
  /*Inicio division dos*/
@@ -1580,7 +1593,7 @@ p.pLiteratura{
 }
 
 h2.segundo{
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     text-align: center;
 
 }
@@ -1630,7 +1643,7 @@ p.pAnne{
 
  /*Inicio division cuatro*/
  h2.tercero{
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     text-align: center;
  }
 
@@ -1657,16 +1670,15 @@ p.card-text{
     font-size: 15px;
 }
 
+
+.pOpcion{
+    font-size: 12px;
+}
+
+
 img.imgDracula{
     width: 240px;
     height: 360px;
-
-}
-
- 
-
-p.card-text{
-    font-size: 15px;
 }
 
 
@@ -1708,7 +1720,7 @@ div.divRecomendados{
 /*Inicio division seis*/
 
 h2.blog{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     text-align: center;
     padding-top: 35px;
 }
@@ -1726,15 +1738,16 @@ div.divSiete{
 
 div.divSiete2{
     font-size: 0.8rem;
-    height: 3rem;
+    height: 4rem;
     margin-top: 370px;
+ 
 }   
  
 
 p.pFoot{
     padding-top: 2rem;
     text-align: center;
-    font-size: 19px;
+    font-size: 21px;
 }
 
 .container-buttons {
@@ -1794,8 +1807,8 @@ h1.pEbooks{
     text-align: center;
     justify-content: center;
     padding-bottom: 2.3rem;
-    font-size: 1.5rem;
-    padding-top: 11px;
+    font-size: 18px;
+    padding-top: 9px;
 }
 
 
@@ -1880,12 +1893,12 @@ div.divVideo iframe{
 
 
 .pFraseTiempo2{
-    font-size: 0.95rem;
+    font-size: 0.80rem;
     padding-bottom: 4px;
 }
 
 .fraseEventos2{
-    padding: 10px;
+    padding: 7px;
     padding-left: 170px;
     margin-bottom: 4rem;
  
@@ -1894,7 +1907,7 @@ div.divVideo iframe{
 
 p.pFraseTiempo{
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 0.90rem;
     text-align: center;
     margin-top: 95px;
     padding-top: 0.80rem;
@@ -1903,8 +1916,8 @@ p.pFraseTiempo{
 
 .fraseEventos{
     padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 div.fraseEventos{
@@ -1914,36 +1927,35 @@ div.fraseEventos{
 }
 
 img.eventosImg1{
-    width: 395px;
-    height: 260px;
+    width: 315px;
+    height: 190px;
     margin: 0px;
 }
 
 img.eventosImg2{
-    width: 395px;
-    height: 260px;
+    width: 315px;
+    height: 190px;
 }
 
 div.divEventos{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         flex-direction: column;
-        font-size: 0.8rem;
-        margin: none;
-        padding: none;
+
     }
 
 div.card{
-    width: 25rem;
+    width: 20rem;
 
 }
 
 div.card-body{
-    width: 25rem;
+    width: 18rem;
+    margin-left: 13px;
 }
 
 p.pFrank{
-    font-size: 1.60rem;
+    font-size: 1.22rem;
     padding-top: 10px;
 }
 
@@ -1975,14 +1987,13 @@ div.divLiteraturaLibros{
 
 div.divSucursalesMapa{
     overflow: relative;
-    padding-bottom:56.25%;
+    padding-bottom:100.25%;
     position: relative;
-    left: 8px;
+    left: 0;
     top: 2rem;
-    width: 480px;
-    height: 150px;
-
-
+    width: 244px;
+    height: 100px;
+    margin: auto;
 }
 
 div.divSucursalesMapa iframe{
@@ -1991,22 +2002,25 @@ div.divSucursalesMapa iframe{
     height:100%;
     width: 100%;
     position:absolute;
+    display: block;
+} 
 
-}
+ 
 
 p.txtMap{
-    font-size: 19px;
-    margin-left: 3.9rem;
+    font-size: 15px;
+    margin-left: 0.65rem;
     margin-top: 2rem;
+    text-align: center;
 }
 
 div.direcc1{
-    left: 5rem;
-    top: 62rem;
+    left: 1.7rem;
+    top: 53rem;
 }
 
 p.pDirecc2{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 p.pDirecc1{
@@ -2014,8 +2028,8 @@ p.pDirecc1{
 }
 
 div.direcc2{
-    left: 5rem;
-    top: 73rem;
+    left: 1.7rem;
+    top: 64rem;
 }
 
 
@@ -2027,8 +2041,11 @@ div.divForm{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
     flex-direction: column;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     padding: none;
+    width: 280px;
+    margin-left: 16px;
+ 
 
 }
 
@@ -2043,7 +2060,9 @@ p.TextNews{
 }
 
 form.form1{
-    margin-top: 30px;
+    margin-top: 20px;
+    height: 342px;
+ 
 }
 
 
@@ -2081,21 +2100,21 @@ section.primero{
 }
 
 img.imgBlog1{
-    width: 422px;
-    height: 280px;
+    width: 322px;
+    height: 220px;
 }
 
 img.imgBlog2{
-    width: 422px;
-    height: 280px;
+    width: 322px;
+    height: 220px;  
 }
 
 p.pBlog1{
-    font-size: 0.85rem;
+    font-size: 0.80rem;
 }
 
 p.pBlog2{
-    font-size:  0.85rem;
+    font-size:  0.80rem;
 }
 
 footer.footerSiempre{
@@ -2107,15 +2126,15 @@ footer.footerSiempre2{
 }
 
 p.pFoot1{
-    font-size: 0.70rem;
+    font-size: 0.85rem;
 }
 
 p.pFoot2{
-    font-size: 0.70rem;
+    font-size: 0.85rem;
 }
 
 p.pFoot{
-    padding-top: 4.5rem;
+    padding-top: 3.2rem;
     text-align: center;
 }
 
