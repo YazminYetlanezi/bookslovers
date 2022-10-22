@@ -1560,12 +1560,571 @@ p.TextNews{
     color:#3B2667;
 }   
 
-
-
-
 /*fin media query*/
 
 }
+
+@media only screen and (max-width: 576px){
+
+
+    /*Inicio division dos*/
+   div.divLibro{
+       font-size: 2rem;
+   }
+   
+   
+    /*Inicio division tres*/
+   
+   p.pLiteratura{
+       font-size: 1rem;
+   }
+   
+   h2.segundo{
+       font-size: 1.7rem;
+       text-align: center;
+   
+   }
+   
+   div.divAutores{
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: repeat(3, 1fr);
+       flex-direction: column;
+       padding: 10px;
+   }   
+   
+   
+   
+   img.autorKafka{
+       width: 240px;
+       height: 360px;
+       margin-bottom: 1rem;
+   
+   }
+   
+   img.autorPoe{
+       width: 240px;
+       height: 360px;
+   
+   }
+   
+   img.autorAnne{
+       width: 240px;
+       height: 360px;
+   
+   }
+   
+   p.pKafka{
+       font-size: 1rem;
+   
+   }
+   
+   p.pPoe{
+       font-size: 1rem;
+   }
+   
+   p.pAnne{
+       font-size: 1rem;
+   }
+   
+   
+   
+    /*Inicio division cuatro*/
+    h2.tercero{
+       font-size: 1.7rem;
+       text-align: center;
+    }
+   
+    div.divRecomendados{
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: repeat(3, 1fr);
+       flex-direction: column;
+   
+   }  
+   
+   img.imgCastillo{
+       width: 240px;
+       height: 360px;
+       margin-bottom: 1rem;
+   
+   }
+   
+   img.imgFrank{
+       width: 240px;
+       height: 360px;
+   }
+   
+   p.card-text{
+       font-size: 15px;
+   }
+   
+   img.imgDracula{
+       width: 240px;
+       height: 360px;
+   
+   }
+   
+    
+   
+   p.card-text{
+       font-size: 15px;
+   }
+   
+   
+   p.pCastillo1{
+       font-size: 1rem;
+   }
+   p.pCastillo2{
+       font-size: 1rem;
+   }
+   
+   p.pFrank1{
+       font-size: 1rem;
+   }
+   p.pFrank2{
+       font-size: 1rem;
+   }
+   
+   p.pDracula1{
+       font-size: 1rem;
+   }
+   p.pDracula2{
+       font-size: 1rem;
+   }
+   
+   
+   
+   /*Inicio division cinco*/
+   div.imgPortada{
+       flex-direction: column;
+       padding: 20px;
+   
+   }
+   
+   div.divRecomendados{
+       padding: 20px;
+   }
+   
+   
+   /*Inicio division seis*/
+   
+   h2.blog{
+       font-size: 1.8rem;
+       text-align: center;
+       padding-top: 35px;
+   }
+   
+   
+   
+   /*Inicio division siete*/
+   div.divSiete{
+       font-size: 0.8rem;
+       height: 3.5rem;
+       margin-top: 120px;
+   
+    
+   }   
+   
+   div.divSiete2{
+       font-size: 0.8rem;
+       height: 3rem;
+       margin-top: 370px;
+   }   
+    
+   
+   p.pFoot{
+       padding-top: 2rem;
+       text-align: center;
+       font-size: 19px;
+   }
+   
+   .container-buttons {
+       min-width: 200px;
+       padding-top: 65px;
+       padding-bottom: 20px;
+   
+   }
+   
+   .container-buttons a {
+       width: 35px;
+       height: 35px;
+       border-radius: 50%;
+       font-size: 1rem;
+    
+     }
+   
+     .container-buttons a::before {
+       margin: 10px 0;
+     }
+   
+   /*Libros*/
+   
+   div.divLibros{
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: repeat(8, 1fr);
+       flex-direction: column;
+       font-size: 0.8rem;
+   
+   }
+   
+   div.divLibros{
+       padding: 10px;
+   
+   }
+   
+   p.librosLibros{
+       font-size: 15px;
+       color: #3B2667;
+       }
+   
+   
+   
+   
+   
+   
+    /*Ebooks*/
+   div.divEbooks{
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: repeat(8, 1fr);
+       flex-direction: column;
+       font-size: 0.8rem;
+   
+   }
+   
+   h1.pEbooks{
+       text-align: center;
+       justify-content: center;
+       padding-bottom: 2.3rem;
+       font-size: 1.5rem;
+       padding-top: 11px;
+   }
+   
+   
+   div.divEbooks{
+       padding: 10px;
+   
+   }
+   
+   img.ebook1{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook2{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook3{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook4{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook5{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook6{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook7{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook8{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook9{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook10{
+       width: 240px;
+       height: 360px;
+   }
+   
+   
+   img.ebook11{
+       width: 240px;
+       height: 360px;
+   }
+   
+   img.ebook12{
+       width: 240px;
+       height: 360px;
+   }
+   
+   
+   
+   /*Eventos del mes*/
+   div.diVideo{
+       flex-direction: column;
+   }
+   
+   div.divVideo iframe{
+       width: 500px;
+       height: 300px;
+       align-items: center;
+   }
+   
+   
+   .pFraseTiempo2{
+       font-size: 0.95rem;
+       padding-bottom: 4px;
+   }
+   
+   .fraseEventos2{
+       padding: 10px;
+       padding-left: 170px;
+       margin-bottom: 4rem;
+    
+   }
+   
+   
+   p.pFraseTiempo{
+       justify-content: center;
+       font-size: 1.1rem;
+       text-align: center;
+       margin-top: 95px;
+       padding-top: 0.80rem;
+    
+   }
+   
+   .fraseEventos{
+       padding-top: 20px;
+       padding-left: 50px;
+       padding-right: 50px;
+   }
+   
+   div.fraseEventos{
+       flex-direction: column;
+      
+       
+   }
+   
+   img.eventosImg1{
+       width: 395px;
+       height: 260px;
+       margin: 0px;
+   }
+   
+   img.eventosImg2{
+       width: 395px;
+       height: 260px;
+   }
+   
+   div.divEventos{
+           grid-template-columns: repeat(1, 1fr);
+           grid-template-rows: repeat(1, 1fr);
+           flex-direction: column;
+           font-size: 0.8rem;
+           margin: none;
+           padding: none;
+       }
+   
+   div.card{
+       width: 25rem;
+   
+   }
+   
+   div.card-body{
+       width: 25rem;
+   }
+   
+   p.pFrank{
+       font-size: 1.60rem;
+       padding-top: 10px;
+   }
+   
+   div.divEventosP{
+       height: 3.5rem;
+   }
+   
+   
+   p.pEventos1{
+       font-size: 0.80rem;
+   }
+   
+   p.pEventos2{
+       font-size: 0.80rem;
+   }
+   
+   div.divEventos1{
+       padding: 15px;
+       margin: 5px;
+       margin-top: 15px;
+   }
+   
+   /*sucursales*/
+   
+   div.divLiteraturaLibros{
+       height: 80px;
+       padding: 18px;  
+   }
+   
+   div.divSucursalesMapa{
+       overflow: relative;
+       padding-bottom:56.25%;
+       position: relative;
+       left: 8px;
+       top: 2rem;
+       width: 480px;
+       height: 150px;
+   
+   
+   }
+   
+   div.divSucursalesMapa iframe{
+       left:0;
+       top:0;
+       height:100%;
+       width: 100%;
+       position:absolute;
+   
+   }
+   
+   p.txtMap{
+       font-size: 19px;
+       margin-left: 10.5rem;
+       margin-top: 1rem;
+   }
+   
+   div.direcc1{
+       left: 5rem;
+       top: 62rem;
+   }
+   
+   p.pDirecc2{
+       font-size: 15px;
+   }
+   
+   p.pDirecc1{
+       font-size: 15px;
+   }
+   
+   div.direcc2{
+       left: 5rem;
+       top: 73rem;
+   }
+   
+   
+   
+   
+   /*Contacto*/
+   
+   div.divForm{
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+       flex-direction: column;
+       font-size: 0.8rem;
+       padding: none;
+   
+   }
+   
+   img.imgNews{
+       display: none;
+   }
+       
+   p.TextNews{
+       padding-top: 40px;
+       color: #3B2667;
+       font-size: 19px;
+   }
+   
+   form.form1{
+       margin-top: 30px;
+   }
+   
+   
+   /*Estilos generales*/
+   
+   nav.navegadorNav{
+       flex-direction: column;
+       align-items: center;
+   
+   }
+   
+   img.facebook{
+       display: none;
+   }
+   
+   img.instagram{
+       display: none;
+   }
+   
+   img.twitter{
+       display: none;
+   }
+   
+   section.sectionInicio{
+       flex-direction: column;
+       align-items: center;
+   }
+   
+   section.sectionInicio{
+       font-size: 0.85rem;
+   }
+   
+   section.primero{
+       font-size: 0.85rem;
+   }
+   
+   img.imgBlog1{
+       width: 422px;
+       height: 280px;
+   }
+   
+   img.imgBlog2{
+       width: 422px;
+       height: 280px;
+   }
+   
+   p.pBlog1{
+       font-size: 0.85rem;
+   }
+   
+   p.pBlog2{
+       font-size:  0.85rem;
+   }
+   
+   footer.footerSiempre{
+       font-size: 0.70rem;
+   }
+   
+   footer.footerSiempre2{
+       font-size: 0.70rem;
+   }
+   
+   p.pFoot1{
+       font-size: 0.70rem;
+   }
+   
+   p.pFoot2{
+       font-size: 0.70rem;
+   }
+   
+   p.pFoot{
+       padding-top: 4.5rem;
+       text-align: center;
+   }
+   
+   div.container-buttons a{
+       margin-bottom: 18px;
+   }
+   
+}
+/*fin media query*/
 
 @media only screen and (max-width: 320px){
 
